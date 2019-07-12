@@ -8,7 +8,7 @@ class Actor < ActiveRecord::Base
 
   def list_roles
     character = characters.first
-    "#{characters[0]} - #{shows[0]}"
+    "#{character} - #{shows[0]}"
   end
 
 end
